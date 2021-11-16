@@ -1,0 +1,36 @@
+body {
+   font-family: 'liberation_sansbold_italic';
+   font-weight: 900;
+}
+
+
+h1 {
+   color: black;
+   text-align: center;
+   font-weight: 900;
+
+}
+
+input.transparent-input {
+   background-color: transparent !important;
+   border: none !important;
+   color: whitesmoke;
+}
+
+input,
+input::-webkit-input-placeholder {
+   font-size: 20px;
+   line-height: 3;
+   color: whitesmoke;
+}
+
+.fill {
+   width: 100%;
+   bottom: 50;
+   height: 400px;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+}
